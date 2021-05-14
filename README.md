@@ -14,7 +14,7 @@ The evaluation metric in our case will be classification accuracy of the model c
 
 # Methodology
 
-Voice activity detection (VAD) refers to the task of determining whether a signal contains speech or not. It is thus a binary decision. For an input signal x, our objective is to determine whether it is speech or not. We express the VAD algorithm as a function y=VAD(x), where the desired target output is,
+Voice activity detection (VAD) refers to the task of determining whether a signal contains speech or not. It is thus a binary decision. For an input signal x, our objective is to determine whether it is speech or not. We express the VAD algorithm as a function y=VAD(x), where the desired target output is, y = 0 if only noise else y= 1
 
 # DataSets
 ## Libri-Speech Dataset: 
@@ -32,4 +32,8 @@ Our main challenge is classification of audio files which are purely noise from 
 
 More information about meta-data and direct links for editing here :
 https://docs.google.com/document/d/1kEIEj0f812N1YcOX1PmRGi172H6myZz0wuPK8eycmFQ/edit
+
+Data folder link (contains all kinds of wav files and model checkpoints, both processed and non-processed) :
+https://drive.google.com/drive/folders/1dovc8A9Q0Yu-3j97BcX_N4CGIbnUfGMF?usp=sharing
+
 
